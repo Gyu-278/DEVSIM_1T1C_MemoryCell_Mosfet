@@ -1,0 +1,7 @@
+design   : final
+written  : /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/part1_2021144048.devsim  (236627 bytes)
+OK: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/part1_2021144048.devsim
+  regions/materials: {'air': 'Air', 'bulk': 'Silicon', 'gate_metal': 'TaN', 'oxide': 'Oxide'}
+  contacts: ['body', 'drain', 'gate', 'source']
+  interfaces: ['bulk_oxide']
+checker exit: 0 (0 = OK)

@@ -1,0 +1,10 @@
+item                          value     limit  result
+dV_BL '1' [mV]                71.16     >= 40  PASS
+dV_BL '0' [mV]                110.2     >= 40  PASS
+retention '0' [ms]             2221     >= 64  PASS
+retention '1' [ms]            347.7     >= 64  PASS
+E_ox [MV/cm]                  4.545      <= 5  PASS
+E_diel [MV/cm]                    2      <= 4  PASS
+
+C_STORE 12.3821 fF (해석식 12.3900)  |  쓰기 레벨 V_high 1.6459 V
+누설 '0' 0.03552 pA/um  |  '1' -0.1007 pA/um  |  70 s

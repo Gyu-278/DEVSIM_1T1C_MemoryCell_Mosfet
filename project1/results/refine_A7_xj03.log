@@ -1,0 +1,13 @@
+===== A7_xj03 =====
+spec: junction_depth_um=0.03   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4733    0.45 +- 0.05  PASS
+Ion [uA/um]                   551.6          >= 450  PASS
+Ioff 300K [pA/um]           0.03576            <= 1  PASS
+SS [mV/dec]                   70.37           <= 75  PASS
+Ioff 398K [pA/um]             30.17          <= 100  PASS
+DIBL [mV/V]                   8.206           <= 30  PASS
+Body effect [mV]              61.26           <= 80  PASS
+E_ox [MV/cm]                  3.636            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 70.31 | ramp retries 0 | 257 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4733 V)

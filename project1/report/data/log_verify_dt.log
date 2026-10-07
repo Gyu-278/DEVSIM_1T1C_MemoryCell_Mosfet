@@ -1,0 +1,7 @@
+1 2e-11 {'dv_bl_mV': 69.83334916791063, 'max_src_drn_mismatch': 2.916125971822294e-10}
+1 1e-11 {'dv_bl_mV': 69.61637791584052, 'max_src_drn_mismatch': 2.911547219780846e-10}
+1 5e-12 {'dv_bl_mV': 69.50857155840806, 'max_src_drn_mismatch': 2.909283191800342e-10}
+0 2e-11 {'dv_bl_mV': -133.5182355005108, 'max_src_drn_mismatch': 3.7283877212354187e-10}
+0 1e-11 {'dv_bl_mV': -132.5982730300408, 'max_src_drn_mismatch': 3.6007209226761213e-10}
+0 5e-12 {'dv_bl_mV': -132.14432844458614, 'max_src_drn_mismatch': 3.5406967197921514e-10}
+saved report/data/verify_dt.json

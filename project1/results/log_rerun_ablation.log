@@ -1,0 +1,26 @@
+reference = design final
+item                          value           limit  result
+Vth [V]                      0.4518    0.45 +- 0.05  PASS
+Ion [uA/um]                   635.8          >= 450  PASS
+Ioff 300K [pA/um]           0.05766            <= 1  PASS
+SS [mV/dec]                   69.39           <= 75  PASS
+Ioff 398K [pA/um]             20.77          <= 100  PASS
+DIBL [mV/V]                   8.293           <= 30  PASS
+Body effect [mV]              54.24           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0101 V | SS points 15 | SS fit 69.33 | ramp retries 0 | 358 s
+tox [nm]=4             Vth -9%  Ion +30%  Ioff300 +137%  SS -2%  Ioff398 +73%  DIBL -10%  Body -19%  Eox +25%   ALL PASS
+tox [nm]=5.5           Vth +4%  Ion -11%  Ioff300 -34%  SS +1%  Ioff398 -23%  DIBL +5%  Body +9%  Eox -9%   ALL PASS
+tox [nm]=8             Vth +26%  Ion -45%  Ioff300 -90%  SS +7%  Ioff398 -76%  DIBL +32%  Body +56%  Eox -38%   fail: vth,ion_uA_per_um,body_effect_mV
+NA [cm^-3]=1e+16       Vth -36%  Ion +25%  Ioff300 +43661%  SS -3%  Ioff398 +11118%  DIBL +157%  Body -58%  Eox +0%   fail: vth,ioff_pA_per_um,ioff_hot_pA_per_um
+NA [cm^-3]=1e+17       Vth +8%  Ion -6%  Ioff300 -63%  SS +1%  Ioff398 -52%  DIBL -10%  Body +15%  Eox +0%   ALL PASS
+Lg [um]=0.3            Vth -10%  Ion +95%  Ioff300 +1038%  SS +2%  Ioff398 +606%  DIBL +163%  Body -15%  Eox +0%   fail: ioff_hot_pA_per_um
+Lg [um]=0.8            Vth +6%  Ion -43%  Ioff300 -62%  SS -0%  Ioff398 -58%  DIBL -31%  Body +4%  Eox +0%   fail: ion_uA_per_um
+t_Si [um]=0.3          Vth +0%  Ion -0%  Ioff300 -0%  SS +0%  Ioff398 +2%  DIBL +0%  Body +0%  Eox +0%   ALL PASS
+t_Si [um]=1            Vth -0%  Ion +0%  Ioff300 +0%  SS -0%  Ioff398 -0%  DIBL -0%  Body -0%  Eox +0%   ALL PASS
+xj [um]=0.03           Vth +1%  Ion -3%  Ioff300 -10%  SS +0%  Ioff398 -8%  DIBL -6%  Body +3%  Eox +0%   ALL PASS
+xj [um]=0.15           Vth -2%  Ion +6%  Ioff300 +42%  SS -1%  Ioff398 +29%  DIBL +32%  Body -14%  Eox +0%   ALL PASS
+ND [cm^-3]=1e+19       Vth +1%  Ion -8%  Ioff300 -7%  SS -0%  Ioff398 -7%  DIBL +0%  Body +0%  Eox +0%   ALL PASS
+ND [cm^-3]=1e+21       Vth -1%  Ion +8%  Ioff300 +20%  SS +0%  Ioff398 +16%  DIBL +14%  Body -2%  Eox +0%   ALL PASS
+
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/ablation_final.json , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/ablation_final.csv

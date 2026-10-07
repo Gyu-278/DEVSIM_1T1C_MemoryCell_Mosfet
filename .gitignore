@@ -1,0 +1,28 @@
+# HW#1 conda 환경 (1.1 GB) — environment.yml 로 다시 만든다
+.conda/
+__pycache__/
+# 아래 파일을 그대로 묶은 압축본
+project1_final.zip
+# 백그라운드 실행 때 남은 프로세스 번호
+project1/results/rerun_pids/
+
+# 강의 배포 자료 (과제 PDF·공지·매뉴얼·데모)
+MANUAL.html
+MANUAL_EN.html
+DEMO.bat
+demo/
+project1/Project1_Assignment_0927.pdf
+project1/Project1_assignment.pdf
+project1/information.md
+# check_structure_file/ 과 같은 파일 하나를 묶은 압축본
+project1/check_structure_file.zip
+
+# 보고서 본문과 작성용 메모 (그림 report/fig, 그림 데이터 report/data, make_figures2.py 는 올린다)
+project1/report/Project1_보고서.*
+project1/report/FACTS_*.md
+project1/report/STYLE.md
+project1/report/tools/md2docx.py
+project1/report/tools/fill_code.py
+project1/report/tools/estimate_pages.py
+project1/report/tools/README.txt
+project1/REPORT_CODE.md

@@ -1,0 +1,13 @@
+===== A4_tox5_na6 =====
+spec: oxide_thickness_nm=5.0,body_doping_cm3=6.0e16   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4266    0.45 +- 0.05  PASS
+Ion [uA/um]                   661.6          >= 450  PASS
+Ioff 300K [pA/um]            0.1195            <= 1  PASS
+SS [mV/dec]                   68.78           <= 75  PASS
+Ioff 398K [pA/um]             35.78          <= 100  PASS
+DIBL [mV/V]                   9.105           <= 30  PASS
+Body effect [mV]               48.8           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0101 V | SS points 15 | SS fit 68.72 | ramp retries 0 | 1242 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4266 V)

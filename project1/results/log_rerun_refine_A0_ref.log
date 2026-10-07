@@ -1,0 +1,13 @@
+===== A0_ref =====
+spec: (base)   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4712    0.45 +- 0.05  PASS
+Ion [uA/um]                   566.3          >= 450  PASS
+Ioff 300K [pA/um]            0.0382            <= 1  PASS
+SS [mV/dec]                   70.25           <= 75  PASS
+Ioff 398K [pA/um]             16.05          <= 100  PASS
+DIBL [mV/V]                   8.734           <= 30  PASS
+Body effect [mV]              59.33           <= 80  PASS
+E_ox [MV/cm]                  3.636            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 70.19 | ramp retries 0 | 1249 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4712 V)

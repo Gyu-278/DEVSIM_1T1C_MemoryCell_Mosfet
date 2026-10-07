@@ -1,0 +1,13 @@
+===== A5_lg06 =====
+spec: gate_length_um=0.6   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4825    0.45 +- 0.05  PASS
+Ion [uA/um]                   452.8          >= 450  PASS
+Ioff 300K [pA/um]           0.02465            <= 1  PASS
+SS [mV/dec]                   70.13           <= 75  PASS
+Ioff 398K [pA/um]             10.92          <= 100  PASS
+DIBL [mV/V]                   7.151           <= 30  PASS
+Body effect [mV]              60.75           <= 80  PASS
+E_ox [MV/cm]                  3.636            <= 5  PASS
+Vth bracket 0.0099 V | SS points 16 | SS fit 70.06 | ramp retries 0 | 920 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4825 V)

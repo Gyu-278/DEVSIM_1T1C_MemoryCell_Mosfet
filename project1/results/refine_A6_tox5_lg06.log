@@ -1,0 +1,13 @@
+===== A6_tox5_lg06 =====
+spec: oxide_thickness_nm=5.0,gate_length_um=0.6   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4613    0.45 +- 0.05  PASS
+Ion [uA/um]                   510.6          >= 450  PASS
+Ioff 300K [pA/um]           0.03938            <= 1  PASS
+SS [mV/dec]                   69.27           <= 75  PASS
+Ioff 398K [pA/um]             29.25          <= 100  PASS
+DIBL [mV/V]                    6.84           <= 30  PASS
+Body effect [mV]              55.53           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 69.21 | ramp retries 0 | 283 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4613 V)

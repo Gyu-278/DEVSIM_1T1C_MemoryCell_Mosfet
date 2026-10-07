@@ -1,0 +1,15 @@
+
+===== A =====
+item                          value     limit  result
+dV_BL '1' [mV]                72.23     >= 40  PASS
+dV_BL '0' [mV]                110.2     >= 40  PASS
+retention '0' [ms]              inf     >= 64  PASS
+retention '1' [ms]            252.1     >= 64  PASS
+E_ox [MV/cm]                  4.545      <= 5  PASS
+E_diel [MV/cm]                    2      <= 4  PASS
+
+C_STORE 12.3821 fF (해석식 12.3900)  |  쓰기 레벨 V_high 1.6555 V
+시작 누설 '0' 0.05999 pA/um  |  '1' -0.125 pA/um  |  -inf s
+  '0' 셀은 0.0500 V 에서 순 전류가 0 이 되어 멈춘다 -> 읽기 마진이 소진되지 않는다 (t = inf)
+
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/part2_specs.csv

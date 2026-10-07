@@ -1,0 +1,19 @@
+
+===== final =====
+item                          value           limit  result
+Vth [V]                      0.4505    0.45 +- 0.05  PASS
+Ion [uA/um]                     637          >= 450  PASS
+Ioff 300K [pA/um]           0.06034            <= 1  PASS
+SS [mV/dec]                   69.39           <= 75  PASS
+Ioff 398K [pA/um]              42.7          <= 100  PASS
+DIBL [mV/V]                     8.3           <= 30  PASS
+Body effect [mV]              54.22           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 69.34 | ramp retries 0 | 161 s
+
+====================================================================================================
+design           Vth       Ion   Ioff300        SS   Ioff398      DIBL      Body       Eox   verdict
+final           0.45       637    0.0603      69.4      42.7       8.3      54.2         4   ALL PASS
+(* = 기준 미달)
+
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search.json , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search_table.txt , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search.csv

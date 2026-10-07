@@ -1,0 +1,13 @@
+===== A3_tox5 =====
+spec: oxide_thickness_nm=5.0   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4518    0.45 +- 0.05  PASS
+Ion [uA/um]                   635.8          >= 450  PASS
+Ioff 300K [pA/um]           0.05766            <= 1  PASS
+SS [mV/dec]                   69.39           <= 75  PASS
+Ioff 398K [pA/um]             20.77          <= 100  PASS
+DIBL [mV/V]                   8.293           <= 30  PASS
+Body effect [mV]              54.24           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0101 V | SS points 15 | SS fit 69.33 | ramp retries 0 | 923 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4518 V)

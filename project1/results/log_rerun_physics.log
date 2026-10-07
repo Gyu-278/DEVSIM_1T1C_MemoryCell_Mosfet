@@ -1,0 +1,20 @@
+[done] 배포 코드 그대로 (midgap · n_i 동결 · mu 상수)
+[done] + 게이트 일함수만
+[done] + n_i(T) 만
+[done] + mu(T) 만
+[done] 셋 다 (최종)
+
+소자: baseline
+case                                             Vth [V]   SS [mV/dec]  Ioff300 [pA]  Ioff398 [pA]      Ion [uA]   DIBL [mV/V]     Body [mV]
+--------------------------------------------------------------------------------------------------------------------------------------------
+배포 코드 그대로 (midgap · n_i 동결 · mu 상수)               0.5631         68.99       0.00222      0.005032         139.6         13.33         42.12
++ 게이트 일함수만                                        0.5508            69       0.00321      0.004888         141.9         13.32         42.15
++ n_i(T) 만                                        0.5631         68.99       0.00222         34.44         139.6         13.33         42.12
++ mu(T) 만                                         0.5631         68.99       0.00222      0.002561         139.6         13.33         42.12
+셋 다 (최종)                                          0.5508            69       0.00321         17.39         141.9         13.32         42.15
+
+핵심 변화:
+  고온 Ioff 비율 (398K/300K):  물리 없음       2.3x   ->  추가 후    5418.1x
+  Vth 온도계수는 physics_check 의 별도 항목 참조 (n_i 동결 시 부호가 거꾸로)
+
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/physics_check_baseline.txt , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/physics_check_baseline.csv

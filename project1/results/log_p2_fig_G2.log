@@ -1,0 +1,6 @@
+C_STORE = 19.2448 fF  (해석식 19.2733)
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/fig_p2_structure_G2.html
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/fig_p2_read_G2.html
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/p2_read_curves_G2.csv
+  data "0": 0.5 ns 에서 ΔV_BL = -132.60 mV (PASS), 셀 0.6890 V
+  data "1": 0.5 ns 에서 ΔV_BL = +69.62 mV (PASS), 셀 1.6383 V

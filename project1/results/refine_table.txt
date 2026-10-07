@@ -1,0 +1,30 @@
+variant               Vth      Ion  Ioff300       SS  Ioff398     DIBL     Body      Eox  metal  verdict
+--------------------------------------------------------------------------------------------------------
+A0_ref              0.471      566   0.0382     70.3       16     8.73     59.3     3.64  TaN    ALL PASS
+A1_na5e16           0.423      611    0.152     69.1     44.7     10.4     48.8     3.64  TaN    ALL PASS
+A2_na6e16           0.444      592   0.0826     69.6     28.4      9.6     53.3     3.64  TaN    ALL PASS
+A3_tox5             0.452      636   0.0577     69.4     20.8     8.29     54.2        4  TaN    ALL PASS
+A4_tox5_na6         0.427      662    0.119     68.8     35.8      9.1     48.8        4  TaN    ALL PASS
+A5_lg06             0.482      453   0.0247     70.1     10.9     7.15     60.7     3.64  TaN    ALL PASS
+A6_tox5_lg06        0.463      510   0.0376     69.3     14.2     6.83     55.5        4  TaN    ALL PASS
+A7_xj03             0.475      551   0.0342     70.4     14.7     8.21     61.3     3.64  TaN    ALL PASS
+final               0.452      636   0.0577     69.4     20.8     8.29     54.2        4  TaN    ALL PASS
+A                   0.471      566   0.0382     70.3       16     8.73     59.3     3.64  TaN    ALL PASS
+B                   0.487      490  0.00971     66.2     6.68     10.5     28.8     4.21  W      ALL PASS
+baseline           0.551*     142*  0.00321       69     17.4     13.3     42.2        2  W      fail:vth,ion_uA_per_um
+(* = 기준 미달)
+
+전 항목 통과 후보를 '가장 빡빡한 항목의 예산 소진율'이 낮은 순서로
+(0 = 여유 만점, 1.00 = 기준선에 딱 걸침):
+  variant              최악  그 항목                 두 번째로 빡빡한 항목
+  A4_tox5_na6        0.92  ss_mV_per_dec        eox_MV_per_cm 0.80
+  B                  0.92  ion_uA_per_um        ss_mV_per_dec 0.88
+  A1_na5e16          0.92  ss_mV_per_dec        ion_uA_per_um 0.74
+  A6_tox5_lg06       0.92  ss_mV_per_dec        ion_uA_per_um 0.88
+  A3_tox5            0.93  ss_mV_per_dec        eox_MV_per_cm 0.80
+  final              0.93  ss_mV_per_dec        eox_MV_per_cm 0.80
+  A2_na6e16          0.93  ss_mV_per_dec        ion_uA_per_um 0.76
+  A0_ref             0.94  ss_mV_per_dec        ion_uA_per_um 0.79
+  A                  0.94  ss_mV_per_dec        ion_uA_per_um 0.79
+  A7_xj03            0.94  ss_mV_per_dec        ion_uA_per_um 0.82
+  A5_lg06            0.99  ion_uA_per_um        ss_mV_per_dec 0.94

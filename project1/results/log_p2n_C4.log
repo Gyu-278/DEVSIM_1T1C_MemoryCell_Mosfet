@@ -1,0 +1,16 @@
+===== C4 =====
+item                          value    limit  result
+read '0' [mV]                 132.6    >= 60  PASS
+read '1' [mV]                 69.62    >= 60  PASS
+64ms read '0' [mV]            113.6    >= 60  PASS
+64ms read '1' [mV]            66.39    >= 60  PASS
+t_ret '0' [ms]                  inf    >= 64  PASS
+t_ret '1' [ms]                176.3    >= 64  PASS
+C_STORE [fF]                  19.24    <= 20  PASS
+E_ox [MV/cm]                  4.902     <= 5  PASS
+E_diel [MV/cm]                2.222     <= 4  PASS
+
+충전분배 한계 '0' 161.4 / '1' 161.4 mV  |  0.5ns 완료율 '1' 43%
+V_crit '1' 1.7366 V  '0' 0.5144 V  |  64ms 셀전압 '1' 1.8956 V
+유지 누설 '1' 0.3315  '0' -0.3032 pA/um  |  2141 s
+  '0' 셀은 0.1300 V 에서 멈춘다 -> 마진 소진 없음

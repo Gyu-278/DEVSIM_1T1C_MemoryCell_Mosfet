@@ -1,0 +1,59 @@
+
+===== final =====
+item                          value           limit  result
+Vth [V]                      0.4518    0.45 +- 0.05  PASS
+Ion [uA/um]                   635.8          >= 450  PASS
+Ioff 300K [pA/um]           0.05766            <= 1  PASS
+SS [mV/dec]                   69.39           <= 75  PASS
+Ioff 398K [pA/um]             20.77          <= 100  PASS
+DIBL [mV/V]                   8.293           <= 30  PASS
+Body effect [mV]              54.24           <= 80  PASS
+E_ox [MV/cm]                      4            <= 5  PASS
+Vth bracket 0.0101 V | SS points 15 | SS fit 69.33 | ramp retries 0 | 396 s
+
+===== A =====
+item                          value           limit  result
+Vth [V]                      0.4712    0.45 +- 0.05  PASS
+Ion [uA/um]                   566.3          >= 450  PASS
+Ioff 300K [pA/um]            0.0382            <= 1  PASS
+SS [mV/dec]                   70.25           <= 75  PASS
+Ioff 398K [pA/um]             16.05          <= 100  PASS
+DIBL [mV/V]                   8.734           <= 30  PASS
+Body effect [mV]              59.33           <= 80  PASS
+E_ox [MV/cm]                  3.636            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 70.19 | ramp retries 0 | 390 s
+
+===== B =====
+item                          value           limit  result
+Vth [V]                      0.4871    0.45 +- 0.05  PASS
+Ion [uA/um]                   490.2          >= 450  PASS
+Ioff 300K [pA/um]          0.009712            <= 1  PASS
+SS [mV/dec]                   66.18           <= 75  PASS
+Ioff 398K [pA/um]             6.683          <= 100  PASS
+DIBL [mV/V]                    10.5           <= 30  PASS
+Body effect [mV]              28.81           <= 80  PASS
+E_ox [MV/cm]                  4.211            <= 5  PASS
+Vth bracket 0.0101 V | SS points 16 | SS fit 66.12 | ramp retries 0 | 742 s
+
+===== baseline =====
+item                          value           limit  result
+Vth [V]                      0.5508    0.45 +- 0.05  FAIL
+Ion [uA/um]                   141.9          >= 450  FAIL
+Ioff 300K [pA/um]           0.00321            <= 1  PASS
+SS [mV/dec]                      69           <= 75  PASS
+Ioff 398K [pA/um]             17.39          <= 100  PASS
+DIBL [mV/V]                   13.32           <= 30  PASS
+Body effect [mV]              42.15           <= 80  PASS
+E_ox [MV/cm]                      2            <= 5  PASS
+Vth bracket 0.0100 V | SS points 14 | SS fit 68.76 | ramp retries 0 | 549 s
+고온 Ioff 는 접합 누설 바닥 (Vg=0 과 -0.5 V 가 2배 안) -> Vth 를 내려도 거의 공짜
+
+====================================================================================================
+design           Vth       Ion   Ioff300        SS   Ioff398      DIBL      Body       Eox   verdict
+final          0.452       636    0.0577      69.4      20.8      8.29      54.2         4   ALL PASS
+A              0.471       566    0.0382      70.3        16      8.73      59.3      3.64   ALL PASS
+B              0.487       490   0.00971      66.2      6.68      10.5      28.8      4.21   ALL PASS
+baseline      0.551*      142*   0.00321        69      17.4      13.3      42.2         2   fail: vth,ion_uA_per_um
+(* = 기준 미달)
+
+saved: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search.json , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search_table.txt , /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/search.csv

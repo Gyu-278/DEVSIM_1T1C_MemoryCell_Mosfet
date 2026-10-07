@@ -1,0 +1,6 @@
+design           Vth       Ion   Ioff300        SS   Ioff398      DIBL      Body       Eox   verdict
+final          0.452       636    0.0577      69.4      20.8      8.29      54.2         4   ALL PASS
+A              0.471       566    0.0382      70.3        16      8.73      59.3      3.64   ALL PASS
+B              0.487       490   0.00971      66.2      6.68      10.5      28.8      4.21   ALL PASS
+baseline      0.551*      142*   0.00321        69      17.4      13.3      42.2         2   fail: vth,ion_uA_per_um
+(* = 기준 미달)

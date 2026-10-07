@@ -1,0 +1,24 @@
+lk of material Silicon
+Replacing Node Model TapDoping in region bulk of material Silicon
+OK: /hai/home/pgh/project/Digital_IC/DEVSIM_PROJECT/DEVSIM_PROJECT/project1/results/bodytap/part2_bodytap.devsim
+  regions/materials: {'air': 'Air', 'bulk': 'Silicon', 'gate_metal': 'Mo', 'hk_l': 'ZrO2', 'hk_r': 'ZrO2', 'metal_pillar': 'TiN', 'oxide': 'Oxide'}
+  contacts: ['body', 'drain', 'gate', 'plate_l', 'plate_r', 'source', 'storage_l', 'storage_r']
+  interfaces: ['bulk_hk_l', 'bulk_hk_r', 'bulk_oxide']
+measure done 2605 s
+        c_store_fF: bottom     19.244768180822643   tap     19.244768180822643
+         read_0_mV: bottom      132.5982730300408   tap     132.59802577371505
+         read_1_mV: bottom      69.61637791584052   tap      69.60837334685577
+         vcrit_1_V: bottom         1.736572265625   tap         1.736572265625
+         vcrit_0_V: bottom         0.514404296875   tap         0.514404296875
+         tret_1_ms: bottom      174.8772541339133   tap     185.62972844651296
+         tret_0_ms: bottom                    inf   tap     16183.365966205958
+         stall_0_V: bottom    0.12500000000000003   tap                   None
+           v64_1_V: bottom     1.8948346685963113   tap     1.9001519705781118
+       read64_1_mV: bottom       66.3693034980104   tap      66.54331749308895
+       read64_0_mV: bottom     114.35266050908055   tap     125.01220481601783
+ ileak_1_pA_per_um: bottom     0.3338222784378653   tap     0.3168134434429228
+          all_pass: bottom                   True   tap                   True
+            errors: bottom                     {}   tap                     {}
+split_bottom {'2.0000': {'source': 0.3338222784378653, 'drain': -0.3019410084313198, 'body': -0.03188127000654549}, '1.7366': {'source': 0.25226572733847147, 'drain': -0.22071938907136376, 'body': -0.03154633826710766}}
+split_bodytap {'2.0000': {'source': 0.3168134434429228, 'drain': -0.3128686655615705, 'body': -0.0039447778813523435}, '1.7366': {'source': 0.23585646086170262, 'drain': -0.2321366447080984, 'body': -0.003719816153604247}}
+seconds 2714.2

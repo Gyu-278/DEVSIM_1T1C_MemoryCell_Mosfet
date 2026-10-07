@@ -1,0 +1,13 @@
+===== A2_na6e16 =====
+spec: body_doping_cm3=6.0e16   gate TaN
+item                          value           limit  result
+Vth [V]                      0.4423    0.45 +- 0.05  PASS
+Ion [uA/um]                   592.8          >= 450  PASS
+Ioff 300K [pA/um]           0.08643            <= 1  PASS
+SS [mV/dec]                   69.56           <= 75  PASS
+Ioff 398K [pA/um]             58.34          <= 100  PASS
+DIBL [mV/V]                   9.598           <= 30  PASS
+Body effect [mV]              53.27           <= 80  PASS
+E_ox [MV/cm]                  3.636            <= 5  PASS
+Vth bracket 0.0099 V | SS points 15 | SS fit 69.51 | ramp retries 0 | 269 s
+best metal for Vth->0.45 : TaN  (Vth would be 0.4423 V)
